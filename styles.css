@@ -1,0 +1,17 @@
+#resizable{
+    border: solid;
+    height: 50px;
+    width: auto;
+    
+}
+.ex{
+    height: 200px;
+    width: 200px;
+    border: solid;
+}
+.ex-bigger{
+    height: 300px;
+    width: 300px;
+    border: solid;
+}
+
