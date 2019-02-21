@@ -1,5 +1,5 @@
 $(function() {
-    console.log( "ready!" );
+    console.log( "go!" );
     $( "#draggable" ).draggable();
     $( "#droppable").droppable({
         drop: function(event, ui){
@@ -13,5 +13,5 @@ $(function() {
         alert(data);
     }).fail(function(){
         alert('Could not get data! :(');
-    })
+    });
 });
